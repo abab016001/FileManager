@@ -1,0 +1,16 @@
+{
+  "Scene": {
+    "Entry": {
+      "cd": "Entry",
+      "name": "入口"
+    },
+    "Resource": {
+      "cd": "Resource",
+      "name": "資源"
+    },
+    "Task": {
+      "cd": "Task",
+      "name": "任務"
+    }
+  }
+}

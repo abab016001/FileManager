@@ -1,0 +1,30 @@
+{
+  "FMMT001": {
+    "NAME": "標籤主檔",
+    "COLUMN": {
+      "ID": {
+        "TYPE": "INTEGER",
+        "PK": "PRIMARY KEY",
+        "AUTO": "AUTOINCREMENT",
+        "NOTNULL": "NOT NULL"
+      },
+      "NAME": {
+        "TYPE": "TEXT"
+      },
+      "PATH": {
+        "TYPE": "TEXT"
+      },
+      "CREATE_DATETIME": {
+        "TYPE": "TEXT"
+      },
+      "UPDATE_DATETIME": {
+        "TYPE": "TEXT"
+      }
+    },
+    "INDEX": {
+      "I_PKNO": [
+        "ID"
+      ]
+    }
+  }
+}

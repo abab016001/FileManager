@@ -1,0 +1,30 @@
+.add-wrapper {
+  display: grid;
+  gap: 10px 0;
+  padding: 0 20px;
+  resize: none;
+
+  button {
+    margin-left: 10px;
+  }
+}
+
+.add-wrapper-path-txt {
+  display: block;
+  /* block 或 flex 都可以 */
+  max-width: 300px;
+  /* 容器寬度 */
+  white-space: nowrap;
+  /* 不換行 */
+  overflow-x: auto;
+  /* 超出部分水平滾動 */
+  overflow-y: hidden;
+  /* 垂直不滾動 */
+  border: 1px solid #ccc;
+  /* 可選，方便看到邊界 */
+  padding: 2px 4px;
+}
+
+.add-wrapper-validate {
+  color: red;
+}

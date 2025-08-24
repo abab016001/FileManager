@@ -1,0 +1,33 @@
+* {
+  outline: 1px solid pink;
+  box-sizing: border-box;
+}
+
+.d-none {
+  display: none;
+}
+
+.f-row {
+  display: flex;
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-aic {
+  align-items: center;
+}
+
+.f-jce {
+  justify-content: end;
+}
+
+.f-jcsb {
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}

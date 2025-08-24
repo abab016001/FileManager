@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "cors": "^2.8.5",
+    "electron": "^37.3.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.9"
+  }
+}

@@ -1,0 +1,31 @@
+.container {
+  width: 98%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.block_ui {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.block_ui .bg {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block_ui .content {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+
+.block_ui h1 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
